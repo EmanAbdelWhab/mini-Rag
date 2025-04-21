@@ -4,7 +4,7 @@ import os
 # Define API router with versioned prefix and tag
 base_router = APIRouter(
     prefix="/api/v1",
-    tags=["API"],
+    tags=["API_v1"],
 )
 
 # Root route of the API
