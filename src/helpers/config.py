@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     APP_VERSION : str
     openai_api_key : str
     
-    FILE_ALLOWED_EXTENSIONS: list
+    FILE_ALLOWED_TYPES: list
     FILE_MAX_SIZE: int
     class Config:
         """Configuration for the settings."""
