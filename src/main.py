@@ -1,7 +1,4 @@
 from fastapi import FastAPI
-from dotenv import load_dotenv
-load_dotenv(".env") # Load environment variables from .env file
-
 from routes import base # Import the base router from routes/base.py
 
 # Initialize FastAPI app

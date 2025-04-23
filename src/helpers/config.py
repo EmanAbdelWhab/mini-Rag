@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     # Define the settings with their types and default values
 
     APP_NAME : str 
-    App_VERSION : str
+    APP_VERSION : str
     openai_api_key : str
     
     class Config:
